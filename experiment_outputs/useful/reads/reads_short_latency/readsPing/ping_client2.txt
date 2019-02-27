@@ -1,0 +1,346 @@
+
+------------------------------------------------------------------------
+client2 ----> mw2
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+client2 ----> server2
+------------------------------------------------------------------------
+PING server3 (10.0.0.10) 56(84) bytes of data.
+64 bytes from server3 (10.0.0.10): icmp_seq=1 ttl=64 time=30.6 ms
+
+------------------------------------------------------------------------
+client2 ----> server1
+------------------------------------------------------------------------
+PING server1 (10.0.0.8) 56(84) bytes of data.
+64 bytes from server1 (10.0.0.8): icmp_seq=1 ttl=64 time=2.38 ms
+
+------------------------------------------------------------------------
+client2 ----> mw1
+------------------------------------------------------------------------
+PING server2 (10.0.0.11) 56(84) bytes of data.
+64 bytes from server2 (10.0.0.11): icmp_seq=1 ttl=64 time=3.04 ms
+
+------------------------------------------------------------------------
+client2 ----> server3
+------------------------------------------------------------------------
+PING mw2 (10.0.0.6) 56(84) bytes of data.
+64 bytes from mw2 (10.0.0.6): icmp_seq=1 ttl=64 time=7.06 ms
+PING mw1 (10.0.0.4) 56(84) bytes of data.
+64 bytes from mw1 (10.0.0.4): icmp_seq=1 ttl=64 time=2.52 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=2 ttl=64 time=1.18 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=2 ttl=64 time=1.07 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=2 ttl=64 time=1.05 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=2 ttl=64 time=0.495 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=2 ttl=64 time=0.539 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=3 ttl=64 time=1.05 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=3 ttl=64 time=0.583 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=3 ttl=64 time=0.985 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=3 ttl=64 time=0.531 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=3 ttl=64 time=0.551 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=4 ttl=64 time=0.972 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=4 ttl=64 time=0.582 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=4 ttl=64 time=1.03 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=4 ttl=64 time=0.535 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=4 ttl=64 time=0.435 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=5 ttl=64 time=1.00 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=5 ttl=64 time=0.617 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=5 ttl=64 time=1.25 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=5 ttl=64 time=0.500 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=5 ttl=64 time=0.548 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=6 ttl=64 time=0.908 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=6 ttl=64 time=0.468 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=6 ttl=64 time=0.843 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=6 ttl=64 time=0.841 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=6 ttl=64 time=0.779 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=7 ttl=64 time=1.05 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=7 ttl=64 time=0.552 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=7 ttl=64 time=1.13 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=7 ttl=64 time=0.957 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=7 ttl=64 time=0.568 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=8 ttl=64 time=0.842 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=8 ttl=64 time=0.610 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=8 ttl=64 time=0.915 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=8 ttl=64 time=1.30 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=8 ttl=64 time=0.536 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=9 ttl=64 time=0.988 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=9 ttl=64 time=0.472 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=9 ttl=64 time=0.820 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=9 ttl=64 time=0.903 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=9 ttl=64 time=0.618 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=10 ttl=64 time=0.743 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=10 ttl=64 time=0.565 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=10 ttl=64 time=0.963 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=10 ttl=64 time=0.640 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=10 ttl=64 time=0.549 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=11 ttl=64 time=0.994 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=11 ttl=64 time=0.675 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=11 ttl=64 time=1.04 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=11 ttl=64 time=0.419 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=11 ttl=64 time=0.457 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=12 ttl=64 time=1.07 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=12 ttl=64 time=0.566 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=12 ttl=64 time=0.977 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=12 ttl=64 time=0.934 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=12 ttl=64 time=0.432 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=13 ttl=64 time=1.28 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=13 ttl=64 time=0.461 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=13 ttl=64 time=0.881 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=13 ttl=64 time=0.556 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=13 ttl=64 time=0.479 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=14 ttl=64 time=1.20 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=14 ttl=64 time=0.887 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=14 ttl=64 time=0.978 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=14 ttl=64 time=0.591 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=14 ttl=64 time=0.572 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=15 ttl=64 time=0.842 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=15 ttl=64 time=0.555 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=15 ttl=64 time=0.894 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=15 ttl=64 time=0.553 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=15 ttl=64 time=0.592 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=16 ttl=64 time=1.80 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=16 ttl=64 time=0.623 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=16 ttl=64 time=0.942 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=16 ttl=64 time=0.732 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=16 ttl=64 time=0.585 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=17 ttl=64 time=0.816 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=17 ttl=64 time=0.541 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=17 ttl=64 time=0.924 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=17 ttl=64 time=0.684 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=17 ttl=64 time=0.455 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=18 ttl=64 time=0.929 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=18 ttl=64 time=1.04 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=18 ttl=64 time=0.852 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=18 ttl=64 time=0.612 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=18 ttl=64 time=0.488 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=19 ttl=64 time=2.03 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=19 ttl=64 time=0.486 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=19 ttl=64 time=0.938 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=19 ttl=64 time=0.908 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=19 ttl=64 time=0.652 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=20 ttl=64 time=0.886 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=20 ttl=64 time=0.620 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=20 ttl=64 time=0.857 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=20 ttl=64 time=1.72 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=20 ttl=64 time=0.530 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=21 ttl=64 time=0.896 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=21 ttl=64 time=0.784 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=21 ttl=64 time=0.848 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=21 ttl=64 time=1.51 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=21 ttl=64 time=0.701 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=22 ttl=64 time=0.902 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=22 ttl=64 time=0.902 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=22 ttl=64 time=0.974 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=22 ttl=64 time=0.898 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=22 ttl=64 time=0.574 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=23 ttl=64 time=0.925 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=23 ttl=64 time=0.501 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=23 ttl=64 time=0.857 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=23 ttl=64 time=0.485 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=23 ttl=64 time=0.405 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=24 ttl=64 time=1.56 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=24 ttl=64 time=0.566 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=24 ttl=64 time=0.876 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=24 ttl=64 time=0.919 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=24 ttl=64 time=0.802 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=25 ttl=64 time=2.28 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=25 ttl=64 time=0.849 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=25 ttl=64 time=0.987 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=25 ttl=64 time=0.930 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=25 ttl=64 time=0.540 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=26 ttl=64 time=1.02 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=26 ttl=64 time=0.552 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=26 ttl=64 time=0.891 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=26 ttl=64 time=0.609 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=26 ttl=64 time=0.525 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=27 ttl=64 time=3.08 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=27 ttl=64 time=0.496 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=27 ttl=64 time=0.749 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=27 ttl=64 time=0.697 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=27 ttl=64 time=0.542 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=28 ttl=64 time=0.857 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=28 ttl=64 time=0.981 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=28 ttl=64 time=0.764 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=28 ttl=64 time=0.509 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=28 ttl=64 time=0.605 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=29 ttl=64 time=0.915 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=29 ttl=64 time=1.10 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=29 ttl=64 time=0.968 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=29 ttl=64 time=0.505 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=29 ttl=64 time=0.556 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=30 ttl=64 time=0.881 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=30 ttl=64 time=0.916 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=30 ttl=64 time=0.903 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=30 ttl=64 time=0.714 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=30 ttl=64 time=0.543 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=31 ttl=64 time=1.71 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=31 ttl=64 time=0.502 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=31 ttl=64 time=0.874 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=31 ttl=64 time=0.845 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=31 ttl=64 time=0.598 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=32 ttl=64 time=1.88 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=32 ttl=64 time=0.550 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=32 ttl=64 time=0.776 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=32 ttl=64 time=0.567 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=32 ttl=64 time=0.506 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=33 ttl=64 time=1.31 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=33 ttl=64 time=0.643 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=33 ttl=64 time=0.850 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=33 ttl=64 time=1.03 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=33 ttl=64 time=0.565 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=34 ttl=64 time=0.777 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=34 ttl=64 time=0.452 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=34 ttl=64 time=0.976 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=34 ttl=64 time=4.08 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=34 ttl=64 time=0.750 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=35 ttl=64 time=1.16 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=35 ttl=64 time=1.08 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=35 ttl=64 time=0.912 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=35 ttl=64 time=0.946 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=35 ttl=64 time=0.452 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=36 ttl=64 time=1.29 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=36 ttl=64 time=0.551 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=36 ttl=64 time=0.790 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=36 ttl=64 time=0.799 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=36 ttl=64 time=0.632 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=37 ttl=64 time=0.958 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=37 ttl=64 time=0.540 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=37 ttl=64 time=0.891 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=37 ttl=64 time=0.621 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=37 ttl=64 time=0.444 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=38 ttl=64 time=0.873 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=38 ttl=64 time=0.540 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=38 ttl=64 time=0.883 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=38 ttl=64 time=0.564 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=38 ttl=64 time=1.00 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=39 ttl=64 time=1.55 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=39 ttl=64 time=0.439 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=39 ttl=64 time=0.842 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=39 ttl=64 time=0.653 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=39 ttl=64 time=0.381 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=40 ttl=64 time=0.795 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=40 ttl=64 time=0.480 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=40 ttl=64 time=0.846 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=40 ttl=64 time=0.557 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=40 ttl=64 time=0.527 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=41 ttl=64 time=0.984 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=41 ttl=64 time=0.557 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=41 ttl=64 time=0.899 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=41 ttl=64 time=0.731 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=41 ttl=64 time=0.479 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=42 ttl=64 time=0.843 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=42 ttl=64 time=0.490 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=42 ttl=64 time=0.930 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=42 ttl=64 time=0.645 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=42 ttl=64 time=0.759 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=43 ttl=64 time=1.51 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=43 ttl=64 time=0.501 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=43 ttl=64 time=0.815 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=43 ttl=64 time=0.921 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=43 ttl=64 time=0.616 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=44 ttl=64 time=1.06 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=44 ttl=64 time=0.473 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=44 ttl=64 time=0.913 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=44 ttl=64 time=0.617 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=44 ttl=64 time=0.482 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=45 ttl=64 time=0.777 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=45 ttl=64 time=0.603 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=45 ttl=64 time=0.910 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=45 ttl=64 time=0.806 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=45 ttl=64 time=0.537 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=46 ttl=64 time=1.31 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=46 ttl=64 time=0.574 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=46 ttl=64 time=0.843 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=46 ttl=64 time=0.576 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=46 ttl=64 time=0.449 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=47 ttl=64 time=1.19 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=47 ttl=64 time=0.432 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=47 ttl=64 time=0.804 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=47 ttl=64 time=0.930 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=47 ttl=64 time=0.655 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=48 ttl=64 time=0.786 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=48 ttl=64 time=0.533 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=48 ttl=64 time=0.812 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=48 ttl=64 time=0.750 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=48 ttl=64 time=0.515 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=49 ttl=64 time=1.37 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=49 ttl=64 time=0.566 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=49 ttl=64 time=0.850 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=49 ttl=64 time=0.902 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=49 ttl=64 time=0.536 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=50 ttl=64 time=1.21 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=50 ttl=64 time=0.472 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=50 ttl=64 time=0.868 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=50 ttl=64 time=0.928 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=50 ttl=64 time=0.965 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=51 ttl=64 time=1.00 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=51 ttl=64 time=0.469 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=51 ttl=64 time=0.887 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=51 ttl=64 time=0.859 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=51 ttl=64 time=0.459 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=52 ttl=64 time=0.732 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=52 ttl=64 time=0.505 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=52 ttl=64 time=0.776 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=52 ttl=64 time=0.696 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=52 ttl=64 time=0.485 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=53 ttl=64 time=0.845 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=53 ttl=64 time=0.639 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=53 ttl=64 time=0.860 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=53 ttl=64 time=0.487 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=53 ttl=64 time=0.539 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=54 ttl=64 time=1.02 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=54 ttl=64 time=0.557 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=54 ttl=64 time=1.00 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=54 ttl=64 time=0.589 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=54 ttl=64 time=0.525 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=55 ttl=64 time=0.915 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=55 ttl=64 time=0.498 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=55 ttl=64 time=0.696 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=55 ttl=64 time=0.610 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=55 ttl=64 time=0.424 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=56 ttl=64 time=0.922 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=56 ttl=64 time=0.594 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=56 ttl=64 time=0.998 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=56 ttl=64 time=0.572 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=56 ttl=64 time=0.612 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=57 ttl=64 time=0.923 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=57 ttl=64 time=0.486 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=57 ttl=64 time=0.813 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=57 ttl=64 time=0.758 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=57 ttl=64 time=0.494 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=58 ttl=64 time=0.790 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=58 ttl=64 time=0.578 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=58 ttl=64 time=0.879 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=58 ttl=64 time=0.712 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=58 ttl=64 time=0.493 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=59 ttl=64 time=1.18 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=59 ttl=64 time=0.615 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=59 ttl=64 time=0.941 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=59 ttl=64 time=0.694 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=59 ttl=64 time=0.669 ms
+64 bytes from server3 (10.0.0.10): icmp_seq=60 ttl=64 time=1.15 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=60 ttl=64 time=0.859 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=60 ttl=64 time=1.00 ms
+64 bytes from mw2 (10.0.0.6): icmp_seq=60 ttl=64 time=0.871 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=60 ttl=64 time=0.613 ms
+
+--- server3 ping statistics ---
+60 packets transmitted, 60 received, 0% packet loss, time 59047ms
+rtt min/avg/max/mdev = 0.732/1.625/30.659/3.802 ms
+
+--- server1 ping statistics ---
+60 packets transmitted, 60 received, 0% packet loss, time 59006ms
+rtt min/avg/max/mdev = 0.432/0.646/2.383/0.287 ms
+
+--- server2 ping statistics ---
+60 packets transmitted, 60 received, 0% packet loss, time 59015ms
+rtt min/avg/max/mdev = 0.696/0.938/3.040/0.289 ms
+
+--- mw2 ping statistics ---
+60 packets transmitted, 60 received, 0% packet loss, time 59012ms
+rtt min/avg/max/mdev = 0.419/0.909/7.062/0.938 ms
+64 bytes from mw1 (10.0.0.4): icmp_seq=61 ttl=64 time=0.598 ms
+
+--- mw1 ping statistics ---
+61 packets transmitted, 61 received, 0% packet loss, time 59998ms
+rtt min/avg/max/mdev = 0.381/0.597/2.529/0.277 ms

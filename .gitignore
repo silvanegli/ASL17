@@ -1,0 +1,9 @@
+last_year_folders/
+memtier_and_memcached
+build_with_target.xml
+bin/*
+.classpath
+.project
+build/*
+dist/*
+/bin/

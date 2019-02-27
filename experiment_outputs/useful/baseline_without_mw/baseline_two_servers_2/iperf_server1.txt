@@ -1,0 +1,58 @@
+------------------------------------------------------------
+Server listening on TCP port 5001
+Binding to local address server1
+TCP window size: 85.3 KByte (default)
+------------------------------------------------------------
+
+------------------------------------------------------------------------
+all-to-all
+------------------------------------------------------------------------
+[  4] local 10.0.0.8 port 5001 connected with 10.0.0.7 port 54144
+[  6] local 10.0.0.8 port 5001 connected with 10.0.0.5 port 53726
+[  5] local 10.0.0.8 port 5001 connected with 10.0.0.9 port 44914
+[ ID] Interval       Transfer     Bandwidth
+[  4]  0.0- 5.0 sec  48.7 MBytes  81.7 Mbits/sec
+[  6]  0.0- 5.0 sec  51.8 MBytes  86.9 Mbits/sec
+[  5]  0.0- 5.0 sec  55.3 MBytes  92.7 Mbits/sec
+[  4]  5.0-10.0 sec  49.0 MBytes  82.1 Mbits/sec
+[  5]  5.0-10.0 sec  54.7 MBytes  91.8 Mbits/sec
+[  6]  5.0-10.0 sec  54.9 MBytes  92.2 Mbits/sec
+[  4] 10.0-15.0 sec  49.0 MBytes  82.3 Mbits/sec
+[  6] 10.0-15.0 sec  52.5 MBytes  88.2 Mbits/sec
+[  5] 10.0-15.0 sec  55.4 MBytes  92.9 Mbits/sec
+[  4] 15.0-20.0 sec  52.7 MBytes  88.4 Mbits/sec
+[  5] 15.0-20.0 sec  54.5 MBytes  91.4 Mbits/sec
+[  6] 15.0-20.0 sec  56.0 MBytes  93.9 Mbits/sec
+[  4] 20.0-25.0 sec  55.9 MBytes  93.7 Mbits/sec
+[  6] 20.0-25.0 sec  57.1 MBytes  95.9 Mbits/sec
+[  5] 20.0-25.0 sec  57.8 MBytes  96.9 Mbits/sec
+[  4] 25.0-30.0 sec  55.2 MBytes  92.7 Mbits/sec
+[  4]  0.0-30.1 sec   312 MBytes  86.8 Mbits/sec
+[  6] 25.0-30.0 sec  53.2 MBytes  89.2 Mbits/sec
+[  5] 25.0-30.0 sec  46.4 MBytes  77.9 Mbits/sec
+[  6]  0.0-30.1 sec   328 MBytes  91.1 Mbits/sec
+[  5]  0.0-30.2 sec   326 MBytes  90.5 Mbits/sec
+
+------------------------------------------------------------------------
+client1 ----> server1
+------------------------------------------------------------------------
+[  7] local 10.0.0.8 port 5001 connected with 10.0.0.9 port 44958
+[  7]  0.0- 5.0 sec   120 MBytes   202 Mbits/sec
+[  7]  5.0-10.0 sec   119 MBytes   200 Mbits/sec
+[  7]  0.0-10.1 sec   241 MBytes   201 Mbits/sec
+
+------------------------------------------------------------------------
+client2 ----> server1
+------------------------------------------------------------------------
+[  4] local 10.0.0.8 port 5001 connected with 10.0.0.7 port 54222
+[  4]  0.0- 5.0 sec   121 MBytes   203 Mbits/sec
+[  4]  5.0-10.0 sec   119 MBytes   200 Mbits/sec
+[  4]  0.0-10.1 sec   242 MBytes   202 Mbits/sec
+
+------------------------------------------------------------------------
+client3 ----> server1
+------------------------------------------------------------------------
+[  5] local 10.0.0.8 port 5001 connected with 10.0.0.5 port 53842
+[  5]  0.0- 5.0 sec   120 MBytes   201 Mbits/sec
+[  5]  5.0-10.0 sec   119 MBytes   200 Mbits/sec
+[  5]  0.0-10.1 sec   241 MBytes   200 Mbits/sec

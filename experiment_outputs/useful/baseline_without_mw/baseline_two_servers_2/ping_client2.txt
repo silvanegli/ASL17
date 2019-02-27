@@ -1,0 +1,138 @@
+
+------------------------------------------------------------------------
+client2 ----> server2
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+client2 ----> server1
+------------------------------------------------------------------------
+PING server2 (10.0.0.11) 56(84) bytes of data.
+64 bytes from server2 (10.0.0.11): icmp_seq=1 ttl=64 time=0.888 ms
+PING server1 (10.0.0.8) 56(84) bytes of data.
+64 bytes from server1 (10.0.0.8): icmp_seq=1 ttl=64 time=0.732 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=2 ttl=64 time=0.841 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=2 ttl=64 time=0.680 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=3 ttl=64 time=0.846 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=3 ttl=64 time=1.26 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=4 ttl=64 time=0.907 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=4 ttl=64 time=0.871 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=5 ttl=64 time=1.27 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=5 ttl=64 time=0.973 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=6 ttl=64 time=0.973 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=6 ttl=64 time=0.656 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=7 ttl=64 time=0.969 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=7 ttl=64 time=0.627 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=8 ttl=64 time=1.00 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=8 ttl=64 time=0.732 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=9 ttl=64 time=0.929 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=9 ttl=64 time=0.704 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=10 ttl=64 time=0.919 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=10 ttl=64 time=0.895 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=11 ttl=64 time=0.978 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=11 ttl=64 time=0.596 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=12 ttl=64 time=0.886 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=12 ttl=64 time=0.701 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=13 ttl=64 time=0.823 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=13 ttl=64 time=0.811 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=14 ttl=64 time=1.21 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=14 ttl=64 time=1.28 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=15 ttl=64 time=0.611 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=15 ttl=64 time=1.10 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=16 ttl=64 time=0.742 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=16 ttl=64 time=0.816 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=17 ttl=64 time=1.00 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=17 ttl=64 time=0.843 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=18 ttl=64 time=1.04 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=18 ttl=64 time=0.690 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=19 ttl=64 time=0.723 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=19 ttl=64 time=0.764 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=20 ttl=64 time=0.931 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=20 ttl=64 time=1.36 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=21 ttl=64 time=0.709 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=21 ttl=64 time=0.870 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=22 ttl=64 time=0.753 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=22 ttl=64 time=1.36 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=23 ttl=64 time=1.06 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=23 ttl=64 time=1.05 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=24 ttl=64 time=1.58 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=24 ttl=64 time=0.813 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=25 ttl=64 time=0.946 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=25 ttl=64 time=0.928 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=26 ttl=64 time=0.620 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=26 ttl=64 time=0.803 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=27 ttl=64 time=0.753 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=27 ttl=64 time=1.22 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=28 ttl=64 time=0.766 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=28 ttl=64 time=0.933 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=29 ttl=64 time=0.865 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=29 ttl=64 time=1.73 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=30 ttl=64 time=0.618 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=30 ttl=64 time=1.25 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=31 ttl=64 time=0.839 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=31 ttl=64 time=1.07 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=32 ttl=64 time=0.814 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=32 ttl=64 time=0.906 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=33 ttl=64 time=0.776 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=33 ttl=64 time=1.15 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=34 ttl=64 time=0.737 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=34 ttl=64 time=0.865 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=35 ttl=64 time=0.629 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=35 ttl=64 time=0.942 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=36 ttl=64 time=0.890 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=36 ttl=64 time=0.997 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=37 ttl=64 time=0.910 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=37 ttl=64 time=1.18 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=38 ttl=64 time=0.801 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=38 ttl=64 time=1.26 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=39 ttl=64 time=0.940 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=39 ttl=64 time=1.17 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=40 ttl=64 time=0.811 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=40 ttl=64 time=0.882 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=41 ttl=64 time=0.786 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=41 ttl=64 time=0.886 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=42 ttl=64 time=0.790 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=42 ttl=64 time=0.984 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=43 ttl=64 time=0.997 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=43 ttl=64 time=0.985 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=44 ttl=64 time=0.902 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=44 ttl=64 time=0.939 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=45 ttl=64 time=0.863 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=45 ttl=64 time=1.04 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=46 ttl=64 time=0.941 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=46 ttl=64 time=0.905 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=47 ttl=64 time=0.601 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=47 ttl=64 time=0.860 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=48 ttl=64 time=0.753 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=48 ttl=64 time=0.867 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=49 ttl=64 time=0.683 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=49 ttl=64 time=1.12 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=50 ttl=64 time=0.804 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=50 ttl=64 time=0.828 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=51 ttl=64 time=0.823 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=51 ttl=64 time=0.938 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=52 ttl=64 time=0.635 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=52 ttl=64 time=0.943 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=53 ttl=64 time=0.710 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=53 ttl=64 time=0.785 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=54 ttl=64 time=0.849 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=54 ttl=64 time=2.12 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=55 ttl=64 time=0.856 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=55 ttl=64 time=0.898 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=56 ttl=64 time=0.774 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=56 ttl=64 time=0.995 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=57 ttl=64 time=1.24 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=57 ttl=64 time=1.23 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=58 ttl=64 time=0.729 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=58 ttl=64 time=1.01 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=59 ttl=64 time=0.907 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=59 ttl=64 time=1.27 ms
+64 bytes from server1 (10.0.0.8): icmp_seq=60 ttl=64 time=0.663 ms
+64 bytes from server2 (10.0.0.11): icmp_seq=60 ttl=64 time=0.814 ms
+
+--- server2 ping statistics ---
+60 packets transmitted, 60 received, 0% packet loss, time 59043ms
+rtt min/avg/max/mdev = 0.764/1.022/2.122/0.231 ms
+
+--- server1 ping statistics ---
+60 packets transmitted, 60 received, 0% packet loss, time 59007ms
+rtt min/avg/max/mdev = 0.596/0.821/1.582/0.181 ms

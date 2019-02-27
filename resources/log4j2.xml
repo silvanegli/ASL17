@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" shutdownHook="disable">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+        	<PatternLayout pattern="%d{HH:mm:ss.SSS} - %msg%n"/>
+            <!-- <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" /> -->
+        </Console>
+       <!-- 
+       <File name="Timing" fileName="logs/timing.log" immediateFlush="false" append="false">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] - %msg%n"/>
+        </File>
+        -->
+        
+        <File name="Info" fileName="logs/info.log" immediateFlush="false" append="false">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level - %msg%n"/>
+        </File>
+        <File name="Error" fileName="logs/error.log" immediateFlush="false" append="false">
+            <PatternLayout pattern="%d{MM-dd HH:mm:ss.SSS} [%t] %-5level - %msg%n"/>
+        </File>
+        
+       <RollingFile name="TimingRoller" fileName="logs/timing.log" immediateFlush="false" append="false" filePattern="logs/timing-%i.log">
+            <PatternLayout pattern="%msg%n"/>
+            <Policies>
+                <SizeBasedTriggeringPolicy size="2048 MB"/>
+            </Policies>
+            <DefaultRolloverStrategy max="10"/>
+        </RollingFile>
+        
+    </Appenders>
+	<Loggers>
+		<Logger name="TimingLogger" level="debug" additivity="false">
+			<AppenderRef ref="TimingRoller" />
+		</Logger>
+		<Logger name="InfoLogger" level="info" additivity="false">
+			<AppenderRef ref="Info"/>
+			<AppenderRef ref="Console" />
+		</Logger>
+		<Logger name="ErrorLogger" level="debug" additivity="false">
+			<AppenderRef ref="Error"/>
+		</Logger>
+        <Root level="debug">
+        	<AppenderRef ref="Console" />
+        </Root>
+    </Loggers>
+</Configuration>

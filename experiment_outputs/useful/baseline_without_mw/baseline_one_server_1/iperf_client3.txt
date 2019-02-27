@@ -1,0 +1,33 @@
+
+------------------------------------------------------------------------
+all-to-all
+------------------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to server1, TCP port 5001
+TCP window size: 45.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 48444 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 5.0 sec   120 MBytes   202 Mbits/sec
+[  3]  5.0-10.0 sec   120 MBytes   201 Mbits/sec
+[  3] 10.0-15.0 sec   119 MBytes   200 Mbits/sec
+[  3] 15.0-20.0 sec   118 MBytes   199 Mbits/sec
+[  3] 20.0-25.0 sec   119 MBytes   200 Mbits/sec
+[  3] 25.0-30.0 sec   119 MBytes   199 Mbits/sec
+[  3]  0.0-30.0 sec   716 MBytes   200 Mbits/sec
+
+------------------------------------------------------------------------
+client3 ----> server1
+------------------------------------------------------------------------
+------------------------------------------------------------
+Client connecting to server1, TCP port 5001
+TCP window size: 45.0 KByte (default)
+------------------------------------------------------------
+[  3] local 10.0.0.5 port 48464 connected with 10.0.0.8 port 5001
+[ ID] Interval       Transfer     Bandwidth
+[  3]  0.0- 2.0 sec  49.6 MBytes   208 Mbits/sec
+[  3]  2.0- 4.0 sec  47.9 MBytes   201 Mbits/sec
+[  3]  4.0- 6.0 sec  47.9 MBytes   201 Mbits/sec
+[  3]  6.0- 8.0 sec  47.5 MBytes   199 Mbits/sec
+[  3]  8.0-10.0 sec  47.6 MBytes   200 Mbits/sec
+[  3]  0.0-10.0 sec   241 MBytes   202 Mbits/sec

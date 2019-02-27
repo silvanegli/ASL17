@@ -1,0 +1,14 @@
+18:38:08.369 - Answer was split over: 1 packets.
+
+
+18:38:32.966 - Answer is split over more than one packet. -> we need to read more data
+18:38:32.966 - Answer was split over: 2 packets.
+18:38:32.967 - Answer is split over more than one packet. -> we need to read more data
+18:38:32.967 - Answer was split over: 2 packets.
+18:38:32.968 - Answer was split over: 1 packets.
+
+
+18:39:16.058 - Answer was split over: 1 packets.
+18:39:16.058 - Answer was split over: 1 packets.
+18:39:16.058 - Answer was split over: 1 packets.
+
