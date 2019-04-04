@@ -1,40 +1,40 @@
 Figure 5
-https://gitlab.ethz.ch/siegli/asl-fall17-project/tree/master/experiment_outputs/useful/baseline_without_mw/baseline_one_server_1/plot_data
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/baseline_without_mw/baseline_one_server_1/plot_data
 
 Figure 6
-https://gitlab.ethz.ch/siegli/asl-fall17-project/tree/master/experiment_outputs/useful/baseline_without_mw/baseline_one_server_2/plot_data
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/baseline_without_mw/baseline_one_server_2/plot_data
 
 Figure 7
-https://gitlab.ethz.ch/siegli/asl-fall17-project/tree/master/experiment_outputs/useful/baseline_without_mw/baseline_one_client/plot_data
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/baseline_without_mw/baseline_one_client/plot_data
 
 Figure 10
-https://gitlab.ethz.ch/siegli/asl-fall17-project/blob/master/experiment_outputs/useful/baseline_with_mw/baseline_one_mw/one-mw-plot-data.txt
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/baseline_with_mw/baseline_one_mw/one-mw-plot-data.txt
 
 Figure 11
-https://gitlab.ethz.ch/siegli/asl-fall17-project/blob/master/experiment_outputs/useful/baseline_with_mw/baseline_one_mw_short_client/one-mw-plot-data.txt
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/baseline_with_mw/baseline_one_mw_short_client/one-mw-plot-data.txt
 
 Figure 12
-https://gitlab.ethz.ch/siegli/asl-fall17-project/blob/master/experiment_outputs/useful/baseline_with_mw/baseline_two_mw/two-mw-plot-data.txt
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/baseline_with_mw/baseline_two_mw/two-mw-plot-data.txt
 
 Figure 13
-https://gitlab.ethz.ch/siegli/asl-fall17-project/blob/master/experiment_outputs/useful/baseline_with_mw/baseline_two_mw_extended_3clients/two-mw-extended-3cl-summary-plot-data.txt
-https://gitlab.ethz.ch/siegli/asl-fall17-project/blob/master/experiment_outputs/useful/baseline_with_mw/baseline_one_mw_extended_3cl/one-mw-extended-3cl-summary-data.txt
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/baseline_with_mw/baseline_two_mw_extended_3clients/two-mw-extended-3cl-summary-plot-data.txt
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/baseline_with_mw/baseline_one_mw_extended_3cl/one-mw-extended-3cl-summary-data.txt
 
 Figure 15
-https://gitlab.ethz.ch/siegli/asl-fall17-project/blob/master/experiment_outputs/useful/writes/write_throughput/writes-summary-plot-data.txt
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/writes/write_throughput/writes-summary-plot-data.txt
 
 Figure 17, 19, 22
-https://gitlab.ethz.ch/siegli/asl-fall17-project/blob/master/experiment_outputs/useful/reads/reads_big_latency_16workers/summary-plot-reads.txt
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/reads/reads_big_latency_16workers/summary-plot-reads.txt
 
 Figure 18
-https://gitlab.ethz.ch/siegli/asl-fall17-project/blob/master/experiment_outputs/useful/reads/multiget_2keys_comp/summary-plot-reads.txt
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/reads/multiget_2keys_comp/summary-plot-reads.txt
 
 Figure 23
-https://gitlab.ethz.ch/siegli/asl-fall17-project/blob/master/experiment_outputs/useful/2k_analysis/write-only-summary.csv
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/2k_analysis/write-only-summary.csv
 
 Figure 24
-https://gitlab.ethz.ch/siegli/asl-fall17-project/blob/master/experiment_outputs/useful/2k_analysis/read-only-summary.csv
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/2k_analysis/read-only-summary.csv
 
 Figure 25
-https://gitlab.ethz.ch/siegli/asl-fall17-project/blob/master/experiment_outputs/useful/2k_analysis/mixed-summary.csv
+https://github.com/silvanegli/ASL17/tree/master/experiment_outputs/useful/2k_analysis/mixed-summary.csv
 
