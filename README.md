@@ -6,6 +6,6 @@ behavior. The middleware will have to perform data replication to different serv
 
 A **detailed description** of the requirements can be found in chapter 2 of [this file](project_description.pdf).
 
-The **final report** including a complete system description, the various experiments, a 2K Analysis as well as the queueing model can be found [here](https://github.com/silvanegli/ASL17/blob/master/report.pdf).
+The **final report** including a complete system description, the various experiments, a 2K analysis as well as the queueing model can be found [here](https://github.com/silvanegli/ASL17/blob/master/report.pdf).
 
 An **outline** of the different files and folders is given [here](https://github.com/silvanegli/ASL17/blob/master/outline.txt).
